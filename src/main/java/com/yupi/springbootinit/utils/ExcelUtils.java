@@ -21,7 +21,7 @@ import static jdk.nashorn.internal.runtime.regexp.joni.Config.log;
 
 @Slf4j
 public class ExcelUtils {
-    public static String excelToCsv(MultipartFile multipartFile) throws IOException {
+    public static String excelToCsv(MultipartFile multipartFile) {
 //        File file = null;
 //        try {
 //            file = ResourceUtils.getFile("classpath:网站数据.xlsx");
